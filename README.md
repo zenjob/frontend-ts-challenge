@@ -16,13 +16,13 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-###Seeding a database
+### Seeding a database
 
 ```bash
 yarn seed
 ```
 
-##API requests
+## API requests
 
 `GET /api/tickets` - get all tickets
 
