@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { Box, createStyles, makeStyles } from '@material-ui/core';
 import { ListHeader } from './ListHeader';
 import { ListBody } from './ListBody';

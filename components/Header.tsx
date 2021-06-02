@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { Box, createStyles, makeStyles, Typography } from '@material-ui/core';
 import { Logo } from './Logo';
 

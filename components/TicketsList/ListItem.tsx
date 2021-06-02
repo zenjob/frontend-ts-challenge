@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { Chip, createStyles, Grid, makeStyles, Typography } from '@material-ui/core';
 import { Ticket } from '../../shared/types';
 import { format } from 'date-fns';

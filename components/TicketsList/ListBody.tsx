@@ -1,9 +1,9 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { useTickets } from '../../hooks/useTickets';
 import { CenteredCircularProgress } from '../CenteredCircularProgress';
 import { NothingFound } from '../NothingFound';
 import { ListItem } from './ListItem';
-import { Box, createStyles, Grid, makeStyles } from '@material-ui/core';
+import { Box, createStyles, makeStyles } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -29,7 +29,7 @@ const ListBody: FC<ListBodyProps> = () => {
   return (
     <Box className={classes.root}>
       {isLoading && <CenteredCircularProgress />}
-      {isEmptyContent ? <NothingFound /> : tickets?.map((ticket) => <ListItem {...ticket} />)}
+      {isEmptyContent ? <NothingFound /> : tickets?.map((ticket) => <ListItem key={ticket.id} {...ticket} />)}
     </Box>
   );
 };

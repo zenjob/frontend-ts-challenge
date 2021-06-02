@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { createStyles, Grid, makeStyles, Typography } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) =>

@@ -1,5 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 import { addDays, subDays } from 'date-fns';
+import { TicketStatus } from '../shared/types';
 const prisma = new PrismaClient();
 
 async function main() {
@@ -9,17 +10,17 @@ async function main() {
     {
       createdAt: subDays(date, 6),
       dueDate: addDays(date, 5),
-      status: 'OPEN',
+      status: TicketStatus.OPEN,
     },
     {
       createdAt: subDays(date, 2),
       dueDate: addDays(date, 5),
-      status: 'OPEN',
+      status: TicketStatus.OPEN,
     },
     {
       createdAt: subDays(date, 5),
       dueDate: addDays(date, 9),
-      status: 'OPEN',
+      status: TicketStatus.OPEN,
     },
   ];
 
@@ -46,22 +47,22 @@ async function main() {
     {
       createdAt: subDays(date, 9),
       dueDate: addDays(date, 3),
-      status: 'OPEN',
+      status: TicketStatus.OPEN,
     },
     {
       createdAt: subDays(date, 5),
       dueDate: addDays(date, 1),
-      status: 'CLOSED',
+      status: TicketStatus.CLOSED,
     },
     {
       createdAt: subDays(date, 77),
       dueDate: subDays(date, 44),
-      status: 'OPEN',
+      status: TicketStatus.OPEN,
     },
     {
       createdAt: subDays(date, 5),
       dueDate: subDays(date, 3),
-      status: 'CLOSED',
+      status: TicketStatus.CLOSED,
     },
   ];
   const martin = await prisma.user.upsert({
@@ -87,27 +88,27 @@ async function main() {
     {
       createdAt: subDays(date, 1),
       dueDate: addDays(date, 2),
-      status: 'OPEN',
+      status: TicketStatus.OPEN,
     },
     {
       createdAt: subDays(date, 2),
       dueDate: addDays(date, 3),
-      status: 'OPEN',
+      status: TicketStatus.OPEN,
     },
     {
       createdAt: subDays(date, 4),
       dueDate: subDays(date, 12),
-      status: 'CLOSED',
+      status: TicketStatus.CLOSED,
     },
     {
       createdAt: subDays(date, 10),
       dueDate: subDays(date, 33),
-      status: 'CLOSED',
+      status: TicketStatus.CLOSED,
     },
     {
       createdAt: subDays(date, 4),
       dueDate: subDays(date, 10),
-      status: 'OPEN',
+      status: TicketStatus.OPEN,
     },
   ];
   const maria = await prisma.user.upsert({
@@ -133,22 +134,22 @@ async function main() {
     {
       createdAt: subDays(date, 4),
       dueDate: addDays(date, 2),
-      status: 'OPEN',
+      status: TicketStatus.OPEN,
     },
     {
       createdAt: subDays(date, 8),
       dueDate: addDays(date, 7),
-      status: 'OPEN',
+      status: TicketStatus.OPEN,
     },
     {
       createdAt: subDays(date, 11),
       dueDate: addDays(date, 21),
-      status: 'OPEN',
+      status: TicketStatus.OPEN,
     },
     {
       createdAt: subDays(date, 16),
       dueDate: subDays(date, 2),
-      status: 'CLOSED',
+      status: TicketStatus.CLOSED,
     },
   ];
   const marc = await prisma.user.upsert({
@@ -174,7 +175,7 @@ async function main() {
     {
       createdAt: date,
       dueDate: addDays(date, 9),
-      status: 'OPEN',
+      status: TicketStatus.OPEN,
     },
   ];
   const natalia = await prisma.user.upsert({
@@ -200,17 +201,17 @@ async function main() {
     {
       createdAt: date,
       dueDate: addDays(date, 2),
-      status: 'OPEN',
+      status: TicketStatus.OPEN,
     },
     {
       createdAt: date,
       dueDate: addDays(date, 1),
-      status: 'OPEN',
+      status: TicketStatus.OPEN,
     },
     {
       createdAt: date,
       dueDate: addDays(date, 8),
-      status: 'OPEN',
+      status: TicketStatus.OPEN,
     },
   ];
   const jacob = await prisma.user.upsert({
