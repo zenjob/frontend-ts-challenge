@@ -51,10 +51,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ### Specifications
 
-There are certain specifications defined which **must** be met. If you should encounter some shortcomings of the existing system this would need to be corrected.
+There are certain specifications defined which **must** be met. If you should encounter some shortcomings (bugs) of the existing system this would need to be corrected.
 
 - the UI should follow the [given designs](https://www.figma.com/file/XRLLHLtNSgEKSQGE4kaFQ9/Front-end-Task?node-id=0%3A1)
 - the UI should use the Material-UI component library
+- it is up to you to go TDD or test afterwards but there should be reasonable tests covering any added functionality
 
 ## Objective
 
@@ -69,8 +70,3 @@ I want to be able to delete tasks.
 
 **AS** a User
 I want to be able to manage the tasks on all my devices.
-
-### Stretch goal
-
-So far this poor repo has no tests. If you feel pumped about it let us see how you would setup testing is this environment and show us an example test.
-
