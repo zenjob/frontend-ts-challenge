@@ -8,7 +8,6 @@
     "start": "next start",
     "migrate": "prisma migrate dev --preview-feature",
     "generate": "prisma generate",
-    "ts-node": "ts-node --compiler-options '{\"module\":\"CommonJS\"}'",
     "seed": "prisma db seed --preview-feature",
     "test": "jest --watch"
   },
