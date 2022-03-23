@@ -10,9 +10,10 @@ This repository consists of a simplified version of a **ticketing system**. We w
 
 To allow you to dive right into it, the project already contains the following features:
 
-- Endpoint to list all **people** (`GET /api/users`)
-- Endpoint to list all **tickets** (`GET /api/tickets`)
-- Endpoint to delete **tickets** (`DELETE /api/tickets/:ticketId`)
+- Endpoint to list all **users**
+- Endpoint to list all **tickets**
+- Endpoint to patch **tickets**
+- Endpoint to delete **tickets**
 - UI to list all **tickets**
 
 Feel free to adjust the exiting code as much as you like. There's a local database which you can re-seed and play around with.
@@ -48,6 +49,22 @@ There are certain specifications defined which **must** be met:
 - The UI should follow the [given designs](https://www.figma.com/file/XRLLHLtNSgEKSQGE4kaFQ9/Front-end-Task?node-id=0%3A1)
 - The UI should use the Material-UI component library
 - Added functionality should be covered by tests
+
+### API endpoints
+
+`GET /api/tickets` - List all tickets
+
+`DELETE /api/tickets/:ticketId` - Delete a ticket with id = ticketId
+
+`PATCH /api/tickets/:ticketId` - Patches a ticket with id = ticketId. Only the status can be updated, as per the example body:
+
+```
+  {
+    "status": "OPEN" // Can be "OPEN" or "CLOSED"
+  }
+```
+
+`GET /api/users` - List all users
 
 ## Objective
 
