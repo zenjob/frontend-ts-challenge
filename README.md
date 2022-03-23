@@ -46,7 +46,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 There are certain specifications defined which **must** be met:
 
-- The UI should follow the [given designs](https://www.figma.com/file/XRLLHLtNSgEKSQGE4kaFQ9/Front-end-Task?node-id=0%3A1)
+- The UI should follow the [given designs](https://www.figma.com/file/xnzjiF7RWQSUegABiWEE6V/Front-end-task)
 - The UI should use the Material-UI component library
 - Added functionality should be covered by tests
 
@@ -72,13 +72,21 @@ Your job is to modify the existing UI so it satisfies the following requirements
 
 ### Task A
 
-**AS** a User
-I am able to delete tasks
+**AS** a *User*
+**I CAN** delete tasks
 
 ### Task B
 
-**AS** a User
-I am able to use the application in any screen size
+**AS** a *User*
+**I CAN** set open *tickets* as closed
+
+**AS** a *User*
+**I CAN** set closed *tickets* as open
+
+### Task C
+
+**AS** a *User*
+**I CAN** use the application in any screen size
 
 ## Evaluation criteria
 
