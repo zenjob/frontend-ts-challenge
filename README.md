@@ -62,3 +62,17 @@ I am able to delete tasks
 
 **AS** a User
 I am able to use the application in any screen size
+
+## Evaluation criteria
+
+Your submission will be evaluated by at least 2 people on the following criteria:
+
+- Completeness
+- UI design
+- Tests
+- Solution design
+- Code styling
+
+## Final notes
+
+If you have any questions, feel free to reach out to us at any time.
