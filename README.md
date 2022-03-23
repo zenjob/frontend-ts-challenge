@@ -2,9 +2,9 @@
 
 This is a **frontend coding challenge**, containing **three different tasks**. For finishing these tasks with some documentation, you should not need to invest more than **2 hours**.
 
-## What this is about
+## Introduction
 
-This repository consists of a simplified version of a **ticketing system**. We would like you to extend the functionality of it and ensure it can be used across different screen sizes.
+This repository consists of a simplified version of a **ticketing system**.
 
 ### No bootstrapping needed
 
