@@ -1,6 +1,6 @@
 # Zenjob Coding Challenge
 
-This is a **frontend coding challenge**, containing **two different tasks**. For finishing these tasks with some documentation, you should not need to invest more than **2 hours**.
+This is a **frontend coding challenge**, containing **three different tasks**. For finishing these tasks with some documentation, you should not need to invest more than **2 hours**.
 
 ## What this is about
 
