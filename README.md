@@ -74,18 +74,17 @@ Your job is to modify the existing UI so it satisfies the following requirements
 
 ### Task A
 
-- **AS** a *User*
-- **I CAN** delete tasks
+**AS** a *User* **I CAN** delete tasks
 
 ### Task B
 
-- **AS** a *User* **I CAN** set open *tickets* as closed
+**AS** a *User* **I CAN** set open *tickets* as closed
 
-- **AS** a *User* **I CAN** set closed *tickets* as open
+**AS** a *User* **I CAN** set closed *tickets* as open
 
 ### Task C
 
-- **AS** a *User* **I CAN** use the application in any screen size
+**AS** a *User* **I CAN** use the application in any screen size
 
 ## Evaluation criteria
 
