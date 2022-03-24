@@ -20,9 +20,9 @@ Feel free to adjust the exiting code as much as you like. There's a local databa
 
 ### Getting started
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Please use **NodeJS v14.19.1** for the following instructions.
+Please use **NodeJS v14.19.1** for the following instructions. We recommend using [NVM](https://github.com/nvm-sh/nvm) to easily switch versions, if you usually use a different one.
 
 First, install the dependencies:
 
