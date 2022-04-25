@@ -1,10 +1,6 @@
 # Zenjob Coding Challenge
 
-This is a **frontend coding challenge**, containing **three different tasks**. For finishing these tasks with some documentation, you should not need to invest more than **2 hours**.
-
-## Introduction
-
-This repository consists of a simplified version of a **ticketing system**.
+This is a **frontend coding challenge**, containing **three different tasks**. The repository consists of a simplified version of a **ticketing system**.
 
 ### No bootstrapping needed
 
